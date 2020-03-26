@@ -190,13 +190,11 @@ a.bottom-icon:hover {
   padding: 35px 35px 50px;
   border-radius: 7px;
   height: 100%;
-  border: 1px solid transparent;
   transition: all .3s ease-in-out;
 }
 
 .features-sec-item:hover {
-  border: 1px solid rgba(45, 57, 80, 0.1);
-  box-shadow: 0 2px 25px rgba(45, 57, 80, 0.2);
+  box-shadow: 0 20px 60px 0 rgba(0,0,0,.05);
 }
 
 .features-sec-item span {
@@ -304,23 +302,14 @@ a.bottom-icon:hover {
 
 /******* stay section start *******/
 .stay-sec {
-  position: relative;
   padding: 80px 70px;
+  background-color: rgba(45, 57, 80, 0.85);
   background-image: url(../img/road.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #ffffff;
-}
-
-.stay-sec::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(45, 57, 80, 0.85);
+  background-blend-mode: multiply;
 }
 
 .stay-sec-top {
@@ -492,7 +481,7 @@ a.modal-custom-btn {
   bottom: 20px;
   right: 15px;
   transition: opacity 0.3s ease-in-out;
-  box-shadow: 1px 2px 15px rgba(45, 57, 80, 0.4);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   text-shadow: 0 0 2px rgba(45, 57, 80, 0.5);
 }
 
