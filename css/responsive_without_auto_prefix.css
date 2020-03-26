@@ -144,12 +144,9 @@
 	.navbar-toggler span {
 		display: block;
 		height: 2px;
-		margin: 5px;
+		margin: 5px !important;
 		background-color: #2d3950;
 		width: 35px;
-	}
-	.navbar-toggler .span1 {
-
 	}
 
 	.navbar-toggler .span2 {
@@ -333,7 +330,7 @@
 	}
 
 	.navbar-toggler {
-	  padding: 7px 9px;
+	  padding: 5px !important;
 	}
 
 	ul.top-menu li a span.link-text::before {
@@ -668,10 +665,6 @@
 	.chat-bottom-form textarea {
 	  width: 202.5px;
 	}	
-
-	.navbar-toggler span {
-		margin: 5px 2.5px;
-	}
 
 	.stay-sec form ul label {
 		margin-left: 5px;
